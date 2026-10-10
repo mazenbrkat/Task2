@@ -8,7 +8,7 @@ namespace Task2
         {
 
             List <int> numbers = new List<int>();
-            int number;
+          
             while (true)
             {
                 Console.WriteLine("menu options: ");
@@ -55,7 +55,7 @@ namespace Task2
                 if (choice == 'A' || choice == 'a')
                 {
                     Console.WriteLine("Enter number: ");
-                    number = Convert.ToInt32(Console.ReadLine());
+                    int number = Convert.ToInt32(Console.ReadLine());
                     bool found = false;
                     for (int i = 0; i < numbers.Count; i++)
                     {
